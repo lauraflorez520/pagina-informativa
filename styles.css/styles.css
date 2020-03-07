@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Handlee&display=swap');
+
+
+body {
+  min-width: 290px;
+  color: #000000;
+ 
+  font-family:  'Handlee', cursive;
+  line-height: 1.5;
+  background-color: #E3F2FD;
+}
+
+#navbar {
+  position: fixed;
+  min-width: 290px;
+  top: 250px;
+  left: 0px;
+  width: 300px;
+  height: 100%;
+  border-right: solid;
+  border-top: solid;
+  border-color: rgba(0, 22, 22, 0.4);
+  background-color: #FCE4EC;
+  
+}
+
+header {
+  color: black;
+  margin: 10px;
+  text-align: center;
+  font-size: 1.8em;
+  
+}
+p{
+    font-size: larger;
+    color: #000000;
+}
+
+#main-doc header {
+  text-align: left;
+  margin: 0px;
+  color: #000000;
+}
+
+li{
+    color: #000000;
+}
+#navbar ul {
+  height: 88%;
+  padding: 0;
+color: #000000;
+ }
+
+#navbar li {
+  color: #000000;
+  border-top: 1px solid;
+  list-style: none;
+  position: relative;
+  width: 100%;
+}
+
+#navbar a {
+  display: block;
+  padding: 10px 30px;
+  color: #000000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#main-doc {
+  position: absolute;
+  margin-left: 310px;
+  padding: 20px;
+  margin-bottom: 110px;
+}
+
+section article {
+  color: #000000;
+  margin: 15px;
+  font-size: 0.96em;
+}
+
+section li {
+  margin: 15px 0px 0px 20px;
+  font-size: larger;
+}
+
+.numeros{
+list-style-type: decimal;  
+}
+
+footer{
+  text-align: center;
+}
+
